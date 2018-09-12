@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/res/values/strings.xml",
+                    "source": "/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
+                        "endColumns": "49",
+                        "endOffsets": "100"
                     },
                     "to": {
                         "startLines": "7",
                         "startColumns": "4",
                         "startOffsets": "345",
-                        "endColumns": "55",
-                        "endOffsets": "396"
+                        "endColumns": "49",
+                        "endOffsets": "390"
                     }
                 }
             ]

@@ -1,4 +1,4 @@
-#Wed Sep 12 15:28:37 ART 2018
-base.0=/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/transforms/dexMerger/debug/0
+#Wed Sep 12 18:30:02 ART 2018
+base.0=/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/transforms/dexMerger/debug/17
 path.0=classes.dex
 renamed.0=classes.dex

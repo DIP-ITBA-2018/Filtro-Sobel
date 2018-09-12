@@ -5,13 +5,10 @@ android {
     buildToolsVersion "27.0.3"
 
     defaultConfig {
-        applicationId "org.opencv.samples.facedetect"
+        applicationId "ar.edu.itba.ik.Sobel"
         minSdkVersion 8
         targetSdkVersion 8
 
-        ndk {
-            moduleName "detection_based_tracker"
-        }
     }
 
     buildTypes {

@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+ * Original file: /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
  */
 package org.opencv.engine;
 /**

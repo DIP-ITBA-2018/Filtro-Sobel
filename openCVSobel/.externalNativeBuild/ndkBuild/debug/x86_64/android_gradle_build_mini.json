@@ -1,17 +1,17 @@
 {
   "buildFiles": [
-    "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/Android.mk",
-    "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/Application.mk"
+    "/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/Android.mk",
+    "/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/home/cselmo/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/ndkBuild/debug/lib clean"
+    "/home/cselmo/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/ndkBuild/debug/lib clean"
   ],
   "libraries": {
     "detection_based_tracker-debug-x86_64": {
       "artifactName": "detection_based_tracker",
-      "buildCommand": "/home/cselmo/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/ndkBuild/debug/lib /home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/ndkBuild/debug/obj/local/x86_64/libdetection_based_tracker.so",
+      "buildCommand": "/home/cselmo/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/ndkBuild/debug/lib /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/ndkBuild/debug/obj/local/x86_64/libdetection_based_tracker.so",
       "abi": "x86_64",
-      "output": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/ndkBuild/debug/obj/local/x86_64/libdetection_based_tracker.so"
+      "output": "/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/ndkBuild/debug/obj/local/x86_64/libdetection_based_tracker.so"
     }
   }
 }

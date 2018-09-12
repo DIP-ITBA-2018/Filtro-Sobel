@@ -1,6 +1,6 @@
-/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/detection_based_tracker/DetectionBasedTracker_jni.o: \
-  /home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/DetectionBasedTracker_jni.cpp \
-  /home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/DetectionBasedTracker_jni.h \
+/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/detection_based_tracker/DetectionBasedTracker_jni.o: \
+  /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/DetectionBasedTracker_jni.cpp \
+  /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/DetectionBasedTracker_jni.h \
   /home/cselmo/Documents/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core.hpp \
   /home/cselmo/Documents/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvdef.h \
   /home/cselmo/Documents/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/hal/interface.h \
@@ -47,7 +47,7 @@
   /home/cselmo/Documents/OpenCV-android-sdk/sdk/native/jni/include/opencv2/objdetect/objdetect_c.h \
   /home/cselmo/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/deque
 
-/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/jni/DetectionBasedTracker_jni.h:
+/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVSobel/src/main/jni/DetectionBasedTracker_jni.h:
 
 /home/cselmo/Documents/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core.hpp:
 

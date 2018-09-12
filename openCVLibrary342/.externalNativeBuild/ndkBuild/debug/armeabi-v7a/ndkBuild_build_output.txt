@@ -1,11 +1,11 @@
 Android NDK: OpenCV: You should ignore warning about 'non-system libraries in linker flags' and 'opencv_java' library.    
 Android NDK:         'OPENCV_INSTALL_MODULES:=on' can be used to build APK with included OpenCV binaries    
-rm -f /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/*
-rm -f /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
-rm -f /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
-mkdir -p /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a
-echo [armeabi-v7a] "Gdbserver      ": "[arm-linux-androideabi] /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver"
-install -p /home/cselmo/Android/Sdk/ndk-bundle/prebuilt/android-arm/gdbserver/gdbserver /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
-echo [armeabi-v7a] "Gdbsetup       ": "/home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup"
-echo "set solib-search-path /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a" > /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
-echo "directory /home/cselmo/Android/Sdk/ndk-bundle/sysroot /home/cselmo/Android/Sdk/ndk-bundle/sources/cxx-stl/system" >> /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+rm -f /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/*
+rm -f /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+rm -f /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+mkdir -p /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a
+echo [armeabi-v7a] "Gdbserver      ": "[arm-linux-androideabi] /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver"
+install -p /home/cselmo/Android/Sdk/ndk-bundle/prebuilt/android-arm/gdbserver/gdbserver /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+echo [armeabi-v7a] "Gdbsetup       ": "/home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup"
+echo "set solib-search-path /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a" > /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+echo "directory /home/cselmo/Android/Sdk/ndk-bundle/sysroot /home/cselmo/Android/Sdk/ndk-bundle/sources/cxx-stl/system" >> /home/cselmo/AndroidStudioProjects/filtro-sobel/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup

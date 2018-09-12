@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.opencv.samples.facedetect"
+    package="ar.edu.itba.ik.Sobel"
     android:versionCode="301"
     android:versionName="3.01" >
 
@@ -37,7 +37,7 @@
         android:testOnly="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         <activity
-            android:name="org.opencv.samples.facedetect.FdActivity"
+            android:name="ar.edu.itba.ik.Sobel.SobelActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
@@ -50,7 +50,7 @@
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="org.opencv.samples.facedetect.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="ar.edu.itba.ik.Sobel.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 
