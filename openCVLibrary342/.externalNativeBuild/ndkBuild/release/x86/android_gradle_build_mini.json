@@ -1,0 +1,7 @@
+{
+  "buildFiles": [
+    "/home/cselmo/Documents/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk"
+  ],
+  "cleanCommands": [],
+  "libraries": {}
+}

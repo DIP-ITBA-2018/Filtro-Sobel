@@ -1,0 +1,11 @@
+Android NDK: OpenCV: You should ignore warning about 'non-system libraries in linker flags' and 'opencv_java' library.    
+Android NDK:         'OPENCV_INSTALL_MODULES:=on' can be used to build APK with included OpenCV binaries    
+rm -f /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/*
+rm -f /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/gdbserver
+rm -f /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/gdb.setup
+mkdir -p /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86
+echo [x86] "Gdbserver      ": "[i686-linux-android] /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/gdbserver"
+install -p /home/cselmo/Android/Sdk/ndk-bundle/prebuilt/android-x86/gdbserver/gdbserver /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/gdbserver
+echo [x86] "Gdbsetup       ": "/home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/gdb.setup"
+echo "set solib-search-path /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/obj/local/x86" > /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/gdb.setup
+echo "directory /home/cselmo/Android/Sdk/ndk-bundle/sysroot /home/cselmo/Android/Sdk/ndk-bundle/sources/cxx-stl/system" >> /home/cselmo/AndroidStudioProjects/face-detection/openCVLibrary342/build/intermediates/ndkBuild/debug/lib/x86/gdb.setup

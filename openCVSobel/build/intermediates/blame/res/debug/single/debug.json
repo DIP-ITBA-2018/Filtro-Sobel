@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/res/merged/debug/layout_face_detect_surface_view.xml.flat",
+        "source": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/res/layout/face_detect_surface_view.xml"
+    },
+    {
+        "merged": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/build/intermediates/res/merged/debug/raw_lbpcascade_frontalface.xml.flat",
+        "source": "/home/cselmo/AndroidStudioProjects/face-detection/openCVSobel/src/main/res/raw/lbpcascade_frontalface.xml"
+    }
+]
